@@ -110,9 +110,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "PCBWay/")
 		)
 	)
 	(net 0 "")
@@ -13829,7 +13829,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Designed by: Alessio De Nicola\nManufactured in: Shenzen, China\nVersion: 1.0"
+	(gr_text "Designed by Alessio De Nicola\nManufactured in China\nVersion: 1.0"
 		(at 86 50 0)
 		(layer "F.SilkS")
 		(uuid "207faee3-b6fa-4c66-b46e-2fa41a82e247")
