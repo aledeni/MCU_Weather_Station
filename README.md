@@ -2,11 +2,11 @@
 
 The heart of the board is the ATmega328P microcontroller, it also features a 6-pin AVR-ISP connector for burning the bootloader and a USB connector with serial driver for programming the microcontroller. For connectivity, an ESP8266 Wi-Fi module is provided, connected to the ATmega328P.
 The boards were ordered from China via the JLCPCB website (5 pcs at a cost of 31 EUR) and the components will be assembled and soldered by myself.
-The board schematic can be found in the MCU_Weather_Station.pdf file from this git repository.
+The board schematic can be found in schematic/MCU_Weather_Station.pdf from this git repository.
 
 __Why this board?__
 
-The purpose of the board is to provide a simple but practical example of an online weather station that will use the api.open-meteo.com server for web requests and will communicate with the user via Telegram, asking them which city they want to check the weather for, weather information such as temperature, humidity and time zone will be shown on the OLED display. I will develop the firmware using Arduino IDE.
+The purpose of the board is to provide a simple but practical example of an online weather station that will use the api.open-meteo.com server for web requests, weather information such as temperature, humidity and time zone will be shown on the OLED display. I will develop the firmware using Arduino IDE.
 
 __PCB view:__
 
