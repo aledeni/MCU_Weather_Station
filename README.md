@@ -1,8 +1,8 @@
 # MCU Weather Station
 
-The heart of the board is the ATmega328p microcontroller, it also features a 6-pin AVR-ISP connector for burning the bootloader and a USB connector with serial driver for programming the microcontroller. For connectivity, an ESP8266 Wi-Fi module is provided, connected to the ATmega328p.
+The heart of the board is the ATmega328P microcontroller, it also features a 6-pin AVR-ISP connector for burning the bootloader and a USB connector with serial driver for programming the microcontroller. For connectivity, an ESP8266 Wi-Fi module is provided, connected to the ATmega328P.
 The boards were ordered from China via the JLCPCB website (5 pcs at a cost of 31 EUR) and the components will be assembled and soldered by myself.
-The board schematic can be found in the MCU Weather Station.pdf file from this git repository.
+The board schematic can be found in the MCU_Weather_Station.pdf file from this git repository.
 
 __Why this board?__
 
@@ -19,10 +19,10 @@ __3D view:__
 __Components:__
 
 - 1x ATmega328P DIP-28
-- 1x CH340C (SOIC-16 SMD)
-- 1x ESP8266 Olimex MOD-WIFI-ESP8266-DEV module
+- 1x CH340C serial driver SMD
+- 1x ESP8266 Olimex_MOD-WIFI-ESP8266-DEV module
 - 1x OLED 128x64 SSD1306 display
-- 1x Voltage regulator AMS1117-3.3 (SOT-223 SMD)
+- 1x AMS1117 voltage regulator (from 5V to 3.3V)
 - 1x USB-B THT connector
 - 1x DC Barrel Jack 5V THT
 - 1x 16 MHz crystal
